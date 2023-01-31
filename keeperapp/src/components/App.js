@@ -1,11 +1,14 @@
 import Header from './Header';
-import '../../public/styles.css'
-import Footer from './Footer';
 
+import Footer from './Footer';
+import Note from './Note';
 function App() {
   return (
     <div>
     <Header />
+
+    <Note />
+
     <Footer />
     </div>
   );
